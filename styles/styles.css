@@ -1,0 +1,98 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif 
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+.image img{
+    height: 320px;
+    width: 280px;
+    border-radius: 50%;
+    border:10px solid #231738;
+    position:absolute;
+    top: 30px;
+    left: 10px;
+}
+.portada img{
+    height: 400px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+ 
+img{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    background-color: #2a3e47;
+    width: 200%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background-color: #231738;
+
+}
+
+#contenedorCarrusel{
+    border: 5px solid black;
+    overflow: hidden;
+}
+
+.carrusel{
+    border: 1px solid black;
+    height: 200;
+    position: relative;
+}
+.fotos{
+    height: 100%;
+
+}
+
+.flechas{
+    background-color:black ;
+    position:absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#tarjeta-1{
+    background-color: #2a3e47;
+}
+
+#tarjeta-2{
+    background-color: #46349a;
+}
+
+#tarjeta-3{
+    background-color: coral;
+}

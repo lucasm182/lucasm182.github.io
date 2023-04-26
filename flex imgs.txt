@@ -1,0 +1,42 @@
+css--------------
+
+.row{
+    display: flex;
+    padding: 5px;
+}
+
+.column{
+    flex: 25%;
+    padding: 5px;
+}
+.column img{
+    margin-top: 5px;
+}
+
+@media (max-width: 600px){
+    .column{
+        flex: 100%;
+    }
+}
+
+-----------------------------------------------------
+
+index
+
+<div class="row">
+        <div class="column">
+            <img src="img/img1.jpg" alt="img">
+            <img src="img/img2.jpg" alt="img">
+            <img src="img/img3.jpg" alt="img">
+            <img src="img/img4.jpg" alt="img">
+            <img src="img/img5.jpg" alt="img">    
+        </div>
+        <div class="column">
+            <img src="img/img6.jpg" alt="img">
+            <img src="img/img7.jpg" alt="img">
+            <img src="img/img8.jpg" alt="img">
+            <img src="img/img9.jpg" alt="img">
+            <img src="img/img10.jpg" alt="img">    
+        </div>
+    </div>
+    
